@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Montserrat|Open+Sans");
+.italic {
+  font-style: italic; }
+
+section {
+  display: block;
+  margin: 0 0 8em 0;
+  padding: 0 8%; }
+  section.header {
+    margin: 0 0 5em 0; }
+    section.header .avatar img {
+      -webkit-transition: 1900ms all ease;
+      -moz-transition: 1900ms all ease;
+      -ms-transition: 1900ms all ease;
+      -o-transition: 1900ms all ease;
+      transition: 1900ms all ease;
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      margin: 1em auto;
+      width: 200px;
+      display: block; }
+      section.header .avatar img:hover {
+        -webkit-transition: 1900ms all ease;
+        -moz-transition: 1900ms all ease;
+        -ms-transition: 1900ms all ease;
+        -o-transition: 1900ms all ease;
+        transition: 1900ms all ease;
+        -webkit-filter: grayscale(0%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(0%); }
+    section.header .downloads {
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0; }
+      section.header .downloads li {
+        margin: 0;
+        display: block;
+        height: 40px; }
+        section.header .downloads li a {
+          -webkit-transition: 500ms all ease;
+          -moz-transition: 500ms all ease;
+          -ms-transition: 500ms all ease;
+          -o-transition: 500ms all ease;
+          transition: 500ms all ease;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          padding: 0.5em 0.8em;
+          text-align: center;
+          color: black;
+          text-decoration: none; }
+          section.header .downloads li a:hover {
+            -webkit-transition: 500ms all ease;
+            -moz-transition: 500ms all ease;
+            -ms-transition: 500ms all ease;
+            -o-transition: 500ms all ease;
+            transition: 500ms all ease;
+            background: #F3F3F3;
+            color: #333; }
+        section.header .downloads li:last-of-type {
+          margin: 0; }
+  section.headline h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0 0 3em 0;
+    font-weight: 100; }
+    @media only screen and (max-width: 30em) {
+      section.headline h2 {
+        font-size: 1.5em; } }
+  section.content h2 {
+    font-family: 'Lora', serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin: 1em 0;
+    color: #505050; }
+    @media only screen and (max-width: 30em) {
+      section.content h2 {
+        text-align: center;
+        font-size: 1.3em; } }
+  section.content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    line-height: 2;
+    color: #333; }
+    @media only screen and (max-width: 30em) {
+      section.content p {
+        text-align: justify; } }
+    section.content p a {
+      color: black;
+      text-decoration: underline; }
+  section.content .main {
+    vertical-align: top;
+    width: 58%; }
+    @media only screen and (max-width: 30em) {
+      section.content .main {
+        width: 100%; } }
+  section.content .image {
+    vertical-align: top;
+    width: 40%; }
+    @media only screen and (max-width: 30em) {
+      section.content .image {
+        width: 100%; } }
+    section.content .image img {
+      width: 90%;
+      display: block;
+      margin: auto;
+      height: auto; }
+      @media only screen and (max-width: 30em) {
+        section.content .image img {
+          width: 100%; } }
+  section.content .left {
+    display: inline-block; }
+  section.content .right {
+    display: inline-block; }
+  section.footer {
+    margin: 5em 0 0 0; }
+    section.footer p {
+      font-family: 'Open Sans', sans-serif;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-size: 0.8em;
+      color: #333; }
+
+/*# sourceMappingURL=main.css.map */
