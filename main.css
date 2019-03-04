@@ -5,7 +5,7 @@
 section {
   display: block;
   margin: 0 0 8em 0;
-  padding: 0 8%; }
+  padding: 0 7%; }
   section.header {
     margin: 0 0 5em 0; }
     section.header .avatar img {
@@ -79,7 +79,7 @@ section {
     font-family: 'Lora', serif;
     font-size: 1.7em;
     font-weight: 400;
-    margin: 1em 0;
+    margin: 0 0 1em 0;
     color: #505050; }
     @media only screen and (max-width: 30em) {
       section.content h2 {
@@ -116,10 +116,9 @@ section {
       @media only screen and (max-width: 30em) {
         section.content .image img {
           width: 100%; } }
-  section.content .left {
-    display: inline-block; }
-  section.content .right {
-    display: inline-block; }
+  section.content .left, section.content .right {
+    display: inline-block;
+    vertical-align: middle; }
   section.footer {
     margin: 5em 0 0 0; }
     section.footer p {

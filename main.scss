@@ -38,7 +38,7 @@
 section {
   display:block;
   margin:0 0 8em 0;
-  padding:0 8%;
+  padding:0 7%;
 
   &.header {
     margin:0 0 5em 0;
@@ -116,7 +116,7 @@ section {
       @include font-lora;
       font-size:1.7em;
       font-weight:400;
-      margin:1em 0;
+      margin:0 0 1em 0;
       color:#505050;
 
       @include bp-small {
@@ -170,12 +170,9 @@ section {
       }
     }
 
-    .left {
+    .left, .right {
       display:inline-block;
-    }
-
-    .right {
-      display:inline-block;
+      vertical-align:middle;
     }
   }
 
